@@ -1,0 +1,11 @@
+{
+	"id": "prompt-mixer-ai21-connector",
+	"name": "AI21 Prompt Mixer Connector",
+	"version": "1.0.0",
+	"minAppVersion": "0.1.0",
+	"description": "AI21 Jurassic-2 Connector: Seamlessly integrates the powerful Jurassic-2 language model from AI21 Labs into your applications.",
+	"author": "Prompt Mixer",
+	"authorUrl": "",
+	"fundingUrl": "",
+	"isDesktopOnly": true
+}

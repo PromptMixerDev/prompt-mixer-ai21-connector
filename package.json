@@ -1,0 +1,38 @@
+{
+	"name": "prompt-mixer-ai21-connector",
+	"version": "1.0.0",
+	"description": "",
+	"type": "module",
+	"main": "main.js",
+	"scripts": {
+		"dev": "node esbuild.config.mjs",
+		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+		"version": "node version-bump.mjs && git add manifest.json versions.json",
+		"lint": "eslint '**/*.{js,ts}' --quiet",
+		"lint:fix": "eslint '**/*.{js,ts}' --fix",
+		"format": "prettier '**/*.{js,ts,json,md}' --write",
+		"format:check": "prettier '**/*.{js,ts,json,md}' --check"
+	},
+	"keywords": [
+		"Connector",
+		"Prompt Mixer",
+		"Prompts",
+		"AI21",
+		"J2 Chat API"
+	],
+	"author": "Prompt Mixer",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^20.12.3",
+		"@typescript-eslint/eslint-plugin": "7.5.0",
+		"@typescript-eslint/parser": "7.5.0",
+		"builtin-modules": "3.3.0",
+		"esbuild": "0.20.2",
+		"eslint": "^8.57.0",
+		"eslint-config-prettier": "^9.1.0",
+		"eslint-plugin-prettier": "^5.1.3",
+		"prettier": "^3.2.5",
+		"tslib": "^2.6.2",
+		"typescript": "5.4.3"
+	}
+}
